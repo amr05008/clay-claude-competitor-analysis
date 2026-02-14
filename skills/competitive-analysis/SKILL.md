@@ -29,7 +29,8 @@ Execute these phases in order. Use Clay MCP for structured data enrichment and W
    - If only a company name is provided: set `landing_page_url = null` and proceed as before.
 2. Determine the company slug (lowercase, hyphenated) from the company name.
 3. Set the output path: `./competitive-analysis/YYYY-MM-DD-<company-slug>.md`
-4. Read the report template from `@./references/report-template.md`
+4. Check if the `./competitive-analysis/` directory already exists. If not, create it.
+5. Read the report template from `@./references/report-template.md`
 
 ### Phase 1: Clay Enrichment (Structured Data)
 
@@ -148,7 +149,6 @@ Store all Clay results for use across later phases.
 5. **If `landing_page_url` is null:** Omit Section 9 entirely.
 6. Compile a numbered sources list of all URLs referenced.
 7. Write the final report to `./competitive-analysis/YYYY-MM-DD-<company-slug>.md`.
-8. Create `./competitive-analysis/` directory if it doesn't exist.
 
 ## Quality Rules
 
