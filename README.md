@@ -1,5 +1,7 @@
 # Clay Competitor Analysis Plugin
 
+> **Retired, October 2026.** I'm no longer maintaining this plugin. Its successor is [Competitive Analysis](https://aaronroy.com/competitive-analysis/), an evidence-graded teardown plugin ([source](https://github.com/amr05008/competitive-analysis)). This repo stays up, read-only, for reference.
+
 A Claude Code plugin that generates structured competitive analysis reports, powered by [Clay](https://www.clay.com/) enrichment data.
 
 Run `/competitive-analysis Acme Corp` and get a full report covering product overview, JTBD analysis, competitor landscape, tech stack, financials, team, recent activity, and strategic assessment — all backed by real data.
